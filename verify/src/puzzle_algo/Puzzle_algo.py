@@ -605,8 +605,8 @@ ALGO = algorithm()
 FUN = functions()
 SOLVE = solver()
 
-def main_method():
-    SOLVE.solve_final_optimized(100)
+def main_method(n):
+    SOLVE.solve_final_optimized(n)
 
 def check():
     unsolved_target_list_list_selected = FUN.read_unsolved_target_list_list()
@@ -620,7 +620,7 @@ def check():
     
 if __name__ == '__main__':
     rospy.init_node("puzzle_solver",anonymous=True)
-    main_method()
+    main_method(100)
     # check()
     # try:
     #     rospy.loginfo("ENter")
