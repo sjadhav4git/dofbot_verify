@@ -1,0 +1,4 @@
+<launch> 
+  <node name="capture_patterns" pkg ="verify" type="move_and_cap.py" output="screen"/>
+  <!-- <node name ="puzzle_solver" pkg = "verify" type="Puzzle_algo.py"  output="screen" /> -->
+</launch>

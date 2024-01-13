@@ -1,0 +1,8 @@
+<launch>
+  <node name="image_publisher" pkg="verify" type="cap_publish.py" output="screen"/>
+  
+  <node name="image_subscriber" pkg="verify" type="cap_sub.py" output="screen"/>
+
+  <node name="Joint_variable_subscriber" pkg="verify" type="joint_var_sub.py" output="screen"/>
+
+</launch>

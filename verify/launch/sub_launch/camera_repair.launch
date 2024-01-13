@@ -1,0 +1,3 @@
+<launch>
+  <node name="kill_cam" pkg="verify" type="cam_kill.py" output="screen"/>
+</launch>

@@ -1,0 +1,3 @@
+<launch>
+  <node name="image_publisher" pkg="verify" type="initiate.py" output="screen"/>
+</launch>
