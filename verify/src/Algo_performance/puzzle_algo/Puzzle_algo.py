@@ -637,8 +637,8 @@ def main_method(n):
     print("optimized_no_of_steps: ", optimized_no_of_steps)
     print("solving_sequence : ", solving_sequence)
     print("total_search_time: ", search_time_sec, " sec")
-    print("\nIndividual steps: \n", individual_final_paths_path)
-    print("\nOptimized steps: \n", final_path_dofbot_json)
+    # print("\nIndividual steps: \n", individual_final_paths_path)
+    # print("\nOptimized steps: \n", final_path_dofbot_json)
     return individual_no_of_steps,optimized_no_of_steps, individual_final_paths_path, final_path_dofbot_json,search_time_sec
 
 def check():
